@@ -58,10 +58,10 @@ export function Testimonials() {
     <section className="py-32 bg-black/20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-gray-200 bg-clip-text text-transparent">
+          <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             Loved by Developers
           </h2>
-          <p className="text-xl text-gray-200 font-medium">
+          <p className="text-xl text-gray-400">
             Join thousands of developers who landed their dream jobs
           </p>
         </div>
@@ -77,7 +77,7 @@ export function Testimonials() {
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <p className="text-gray-100 mb-6 italic font-medium">&ldquo;{testimonial.quote}&rdquo;</p>
+              <p className="text-gray-300 mb-6 italic">"{testimonial.quote}"</p>
               <div className="flex items-center gap-3">
                 <img
                   src={testimonial.image}
