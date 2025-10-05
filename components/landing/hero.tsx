@@ -138,15 +138,14 @@ export function Hero() {
       ctx.strokeStyle = '#8B5CF620';
       ctx.lineWidth = 1;
 
-      // Horizontal lines with perspective
-      for (let i = 0; i < 20; i++) {
-        const y = canvas.height * 0.5 + i * 40;
-        const perspective = i / 20;
-        ctx.beginPath();
-        ctx.moveTo(0, y);
-        ctx.lineTo(canvas.width, y);
-        ctx.stroke();
-      }
+       // Horizontal lines with perspective
+       for (let i = 0; i < 20; i++) {
+         const y = canvas.height * 0.5 + i * 40;
+         ctx.beginPath();
+         ctx.moveTo(0, y);
+         ctx.lineTo(canvas.width, y);
+         ctx.stroke();
+       }
 
       // Vertical lines
       for (let i = 0; i < 30; i++) {

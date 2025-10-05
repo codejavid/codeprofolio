@@ -15,10 +15,10 @@ export function Navigation() {
           </Link>
 
           <div className="flex items-center gap-6">
-            <Link href="#features" className="text-sm hover:text-blue-400 transition-colors">
+            <Link href="#features" className="text-sm text-white hover:text-blue-400 transition-colors font-medium">
               Features
             </Link>
-            <Link href="#pricing" className="text-sm hover:text-blue-400 transition-colors">
+            <Link href="#pricing" className="text-sm text-white hover:text-blue-400 transition-colors font-medium">
               Pricing
             </Link>
             <Link href="/login">
